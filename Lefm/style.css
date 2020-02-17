@@ -14,7 +14,9 @@ body{
 .title{
 	font-size: 40px;
 	color: #d5c78c;	
+	margin-top: 150px;
 	margin-left: 100px;
+	margin-bottom: 100px;
 }
 
 .title2{
@@ -25,20 +27,29 @@ body{
 }
 
 .subTitle{
-	margin-left: 50px;
+	margin-left: 75px;
 	font-size: 35px;
 }
 
 .picture{
-	margin-left: 50px;
+	margin: 100px 50px;
+	text-align: center;
 }
 
 .illust{
-	margin-left: 50px;
+	margin: 100px 50px;
+	text-align: center;
+	/*display: flex;*/
+ 	/*justify-content: space-between;*/
+}
+
+.img{
+	margin: 0px 10px;
 }
 
 .other{
-	margin-left: 50px;
+	margin: 100px 50px;
+	text-align: center;
 }
 
 hr{
@@ -63,22 +74,35 @@ a:hover{
 }
 
 .more{
+	text-align: right;
 	font-size: 30px;
 	margin-right: 50px;
 }
 
+.section1{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
 .section2{
+	padding-top: 20px;
+	padding-bottom: 30px;
 	background-color: #e4868e;
 }
 
 .section3{
+	padding-top: 20px;
+	padding-bottom: 30px;
 	background-color: #f8f4e6;
 }
 
 .section4{
+	padding-top: 20px;
+	padding-bottom: 30px;
 	background-color: #e4868e;
 }
 
 .section5{
 	color: #d5c78c;
+	text-align: center;
 }
