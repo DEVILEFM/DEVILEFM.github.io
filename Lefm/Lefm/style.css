@@ -1,0 +1,92 @@
+body{
+  background-color: #fffcf2;
+  color: #7b6154;
+}
+
+.section1 {/*親div*/
+  position: relative;
+  }
+
+.section1 h1 {
+  position: absolute;
+  top: 350px;
+  margin-left: 200px;
+  font-weight: bold; /*太字に*/
+  font-size: 5em;/*サイズ2倍*/
+  }
+
+.section1 img {
+  width: 1200px;
+  margin-top: 100px;
+  margin-left: 400px;
+  text-align: right; 
+  }
+
+
+.section2 {
+  font-size: 2em;/*サイズ2倍*/
+  }
+
+.section2 h2 {
+  width: 100%;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 300px;
+  }
+
+.section2 p {
+  margin-left: 30px;
+}
+
+.section2 img {
+  width: 100%;
+  }
+
+.content1 {
+  float: left;
+  position: relative;
+  width: 400px;
+  margin-left: 300px;
+  background: #beccdd;/*背景色*/
+}
+
+.content2 {
+  float: right;
+  position: absolute;
+  width: 400px;
+  margin-left: 800px;
+  background: #beccdd;/*背景色*/
+}
+
+.content3 {
+  float: left;
+  position: absolute;
+  margin-top: 500px;
+  width: 400px;
+  margin-left: 300px;
+  background: #beccdd;/*背景色*/
+}
+
+.content4 {
+  float: right;
+  position: absolute;
+  margin-top: 500px;
+  width: 400px;
+  margin-left: 800px;
+  background: #beccdd;/*背景色*/
+}
+
+.section3 {
+  font-size: 2em;/*サイズ2倍*/
+  }
+
+.section3 h2 {
+  width: 100%;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 20%;
+  }
+
+.section3 p {
+  text-align: center; 
+}
